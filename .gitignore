@@ -1,0 +1,11 @@
+# VM disk state, ISO cache, snapshots — large, machine-specific, regenerated
+storage/
+storage.snapshot/
+
+# Disk images / ISOs anywhere, belt and braces
+*.img
+*.iso
+*.qcow2
+
+# Scratch / temp
+tmp/
