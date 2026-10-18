@@ -22,7 +22,7 @@ Set-MpPreference -DisableRemovableDriveScanning $false
 Set-MpPreference -DisableEmailScanning $false
 
 Set-MpPreference -MAPSReporting Advanced
-Set-MpPreference -SubmitSamplesConsent SendAllSamples
+Set-MpPreference -SubmitSamplesConsent NeverSend
 Set-MpPreference -CloudBlockLevel High
 Set-MpPreference -CloudExtendedTimeout 50
 Set-MpPreference -PUAProtection 1
